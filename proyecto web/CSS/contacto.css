@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    width: 100%;
+    height: 100px;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    z-index: 100;
+    background-color:#b5d7f5;
+}
+
+.contenedor__header{
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+header .logo{
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.contenedor__nav{
+    position: relative;
+    height: 100%;
+}
+
+nav{
+    height: 100%;
+}
+
+nav ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul a{
+    color:black;
+}
+nav ul li{
+    margin: 0px 20px;
+    list-style: none;
+
+}
+
+.select{
+    background-color: #359ef9;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0.5px 1px 20px -5px gray;
+    cursor: pointer;
+   transition:box-shadow 500ms;    
+}
+
+ul .select:hover{
+    box-shadow: 0.5px 1px 20px -5px rgb(65, 65, 65);
+}
+
+/*DIRECCION*/
+
+.direc{
+    max-width: 1200px;
+    height: 100%;
+    padding-top: 200px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    top: 0%;
+    right: 0%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.direccion h1 {
+    padding-left: 450px;
+    color: rgba(248, 89, 31, 0.751);
+} 
+
+.direccion p{
+    padding-left:40px ;
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.direccion iframe{
+    padding-left: 110px;
+    padding-bottom: 50px;
+}
+
+.correo{
+    padding-left:40px ;
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    padding-top: 90px;
+}
+
+.correo p{
+    padding-top: 0px;
+    margin-right: 20px;
+}
